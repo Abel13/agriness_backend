@@ -38,3 +38,17 @@ The compiled output is written to the build folder. You can cd into this folder 
 cd build
 node server.js
 ```
+
+## .ENV
+
+Create a .env file in the root of application, there is a .env.example file who shows the required environment variables
+
+## Tests
+
+As suggested on Adonis docs this project uses Japa as test runner
+
+To execute all tests run:
+
+```
+node -r @adonisjs/assembler/build/register japaFile.ts
+```
